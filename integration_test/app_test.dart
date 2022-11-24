@@ -6,7 +6,7 @@ import 'package:automatic_testing_flutter_app/main.dart' as app;
 
 void main() {
   IntegrationTestWidgetsFlutterBinding.ensureInitialized();
-  testWidgets('Tap the increment button', (WidgetTester tester) async {
+  testWidgets('Tap the increment button 10 time with 1 second delay', (WidgetTester tester) async {
     // setup
     app.main();
     await tester.pumpAndSettle();
